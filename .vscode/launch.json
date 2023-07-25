@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.data.arrays.Main",
+            "projectName": "data-structures_5cf010fc"
+        },
+        {
+            "type": "java",
+            "name": "DSArrays",
+            "request": "launch",
+            "mainClass": "com.data.arrays.DSArrays",
+            "projectName": "data-structures_5cf010fc"
+        },
+        {
+            "name": "run-my-script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/app.py",
+            "console": "internalConsole"
+        }
+    ]
+}
