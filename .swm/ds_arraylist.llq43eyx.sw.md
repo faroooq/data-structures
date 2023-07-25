@@ -1,8 +1,8 @@
 ---
 id: llq43eyx
-title: DataStructures_ArrayList
+title: DS_ArrayList
 file_version: 1.1.3
-app_version: 1.13.12
+app_version: 1.13.13
 ---
 
 count - To keep track of number of items in the array.
