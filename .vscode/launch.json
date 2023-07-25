@@ -5,6 +5,13 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "com.data.arrays.Main",
+            "projectName": "data-structures_cf77c450"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.data.arrays.Main",
             "projectName": "data-structures_5cf010fc"
         },
         {

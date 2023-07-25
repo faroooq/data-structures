@@ -23,11 +23,6 @@ public class Array {
     }
 
     public void removeAt(int index) {
-        /*
-         * We can't remove the item which is < 0, bcs index start from zero.
-         * We can't remove the item which is >= available count of items
-         * in the array.
-         */
         if (index < 0 || index >= count) {
             throw new IllegalArgumentException();
         }
