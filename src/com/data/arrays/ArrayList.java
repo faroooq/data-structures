@@ -1,18 +1,15 @@
 package com.data.arrays;
 
-public class Array {
+public class ArrayList {
 
     private int[] items;
     private int count;
 
-    public Array(int length) {
+    public ArrayList(int length) {
         this.items = new int[length];
     }
 
     public void print() {
-        /*
-         * count - To keep track of number of items in the array.
-         */
         for (int i = 0; i < count; i++) {
             System.out.println(items[i]);
         }
@@ -26,20 +23,9 @@ public class Array {
         if (index < 0 || index >= count) {
             throw new IllegalArgumentException();
         }
-        /*
-         * Below logic performs SHIFT OPERATION.
-         * Shift the items to the left to fill the hole or gap.
-         * [10, 30, 40, 60]
-         * If the input is to remove the 1st index, then
-         * [10, 40, 60]
-         */
         for (int i = index; i < count; i++) {
             items[i] = items[i + 1];
         }
-        /*
-         * We are making count--, means removing the last index which
-         * doesn't have any value.
-         */
         count--;
     }
 
